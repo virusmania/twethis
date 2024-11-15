@@ -1,0 +1,27 @@
+{
+    "manifest_version": 3,
+    "name": "Theses Checker",
+    "version": "1.0.0",
+    "description": "This is the inserter for twitter",
+    "host_permissions" : [
+      "http://127.0.0.1:8000/*"
+    ],
+    "content_scripts": [{
+      "matches": ["https://twitter.com/*"],
+      "run_at": "document_end",
+      "all_frames": true,
+      "module": true,
+      "js": ["src/loader.js"]
+    }],
+    "background": {
+      "service_worker" : "src/background_output.js"
+    },
+    "web_accessible_resources": [
+      {
+        "resources": [
+          "src/content_output.js"
+        ],
+        "matches": ["https://twitter.com/*"]
+      }
+    ]
+}
