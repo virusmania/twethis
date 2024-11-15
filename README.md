@@ -1,9 +1,5 @@
 # Twitter Truth
 
-![image](https://github.com/KoeiNaito/twitter_truth/assets/80163026/b5b112a0-c7c2-4809-9dee-8e6262ec7144)
-
-Check the truth of the Twitter timeline. 
-
 # Features
 
 This is a Chrome Extension if you want to check the related thesis of some tweets(discussion). I made the own API for connect to the Microsoft Copilot and get a result through web scraping. Then I connected with background.js and other JavaScript programs to get the results of searching related thesis. 
