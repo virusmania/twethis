@@ -1,5 +1,9 @@
 # Twitter Truth
 
+:::note alert
+現在Microsoft Copilotの仕様が変わってしまっており、APIを作成しなおしている最中のため、動かせません。
+:::
+
 # Features
 
 This is a Chrome Extension if you want to check the related thesis of some tweets(discussion). I made the own API for connect to the Microsoft Copilot and get a result through web scraping. Then I connected with background.js and other JavaScript programs to get the results of searching related thesis. 
